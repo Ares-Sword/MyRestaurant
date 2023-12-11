@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymleaf.org" xmlns:method="http://www.w3.org/1999/xhtml">
+
+<head>
+  <link rel="stylesheet" type="text/css" media="all" href="/menu.css" th:href="@{/menu.css}"/>
+
+  <title>Title</title>
+</head>
+<body>
+<div class="container">
+  <img width="500" height="600"
+
+          th:src="@{/photo1.jpg}"
+
+  />
+  <div class="tableDiv">
+<table class="table">
+  <thead class="thead-dark">
+  <tr>
+    <th scope="col" style="color:Black;">Item ID</th>
+    <th scope="col" style="color:Black;">Item Name</th>
+    <th scope="col" style="color:Black;">Item Price</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="MenuList : ${MenuList}">
+    <td th:text="${MenuList.id}" style="color:Black;"></td>
+    <td th:text="${MenuList.name}" style="color:Black;"></td>
+    <td th:text="${MenuList.price}" style="color:Black;"></td>
+  </tr>
+  </tbody>
+</table>
+  </div>
+</div>
+</body>
+</html>
