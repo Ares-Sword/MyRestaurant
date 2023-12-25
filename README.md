@@ -1,6 +1,5 @@
-
-<img width="427" alt="image" src="https://github.com/Ares-Sword/MyRestaurant/assets/40662552/fed66f65-d2df-45dc-a175-f8ab2d9a2af5">
-
+<img width="1079" alt="x1" src="https://github.com/Ares-Sword/MyRestaurant/assets/40662552/d6c0bc31-b858-48fe-9968-6ebe3c61b54e">
+<img width="1079" alt="x2" src="https://github.com/Ares-Sword/MyRestaurant/assets/40662552/d0ee9ddb-7df9-4bba-88a5-cb63fb8fef19">
 
 This is an simple project for learning
 Those 2 pictures are taken from:
